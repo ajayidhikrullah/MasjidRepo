@@ -16,8 +16,12 @@
 </head>
 
 <body>
-<div class="container">
-    <nav>
+    <nav class = "navbar navbar-default">
+        <div class ="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"></a>               
+            </div>             
+        </div>
         <a href="#">
             <i class="fa fa-car fa-5x"></i>
         </a>
