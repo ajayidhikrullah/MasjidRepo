@@ -16,7 +16,27 @@
 </head>
 
 <body>
-    <nav class = "navbar navbar-default">
+    <?php
+
+        require "header.php";
+
+    ?>
+
+    <div class="container">
+        <main>
+
+        </main>
+    </div>
+
+
+
+
+<?php
+    require "footer.php";
+?>
+
+
+    <!-- <nav class = "navbar navbar-default">
         <div class ="container-fluid">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand"></a>               
@@ -28,7 +48,7 @@
     </nav>
 </div>
 
-
+ -->
 
 </body>
 </html>
