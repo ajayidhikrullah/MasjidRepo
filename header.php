@@ -4,41 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css\font-awesome.min.css">
 </head>
+
+<!-- NOTES, WE WILL BE CALLING THE THIS PAGE IN THE INEX PAGE TO SHOW TO END USERS -->
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- <div class="container">     -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
-        <!-- Links to other pages or tabs-->
-        <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link" href="#">HOme</a>
-            </li>
+            <!-- Links to other pages or tabs-->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.php">Home</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Mosque</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">About Mosque</a>
-            </li>
-        </ul>
-    
-    
-    
-    </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.php">Sign up</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
+            </ul>
+            
+        </nav>
+<!-- </div> -->
