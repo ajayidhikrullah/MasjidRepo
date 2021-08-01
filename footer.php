@@ -18,7 +18,7 @@
 
     <div class="container">
         <footer>
-            <h4>Copytight under testing 2021</h4>
+            <h4>Copytight under testing &copy; 2021</h4>
         </footer>
     </div>
 
