@@ -4,49 +4,18 @@
     <?php
         include_once "header.php";
 
-        include_once 'includes/dbh.inc.php';
     ?>
-
-
-
-
-<!-- TESTING DB CONECTION -->
-
-
 
     <div class="container">
            
-
-<!-- showind queries from  DB to website -->
- <?php
-    $sql = "SELECT * FROM posts;"; //query the table posts
-    $result = mysqli_query($conn, $sql); //conect them together
-    // get the result stored here below
-    $resultCheck = mysqli_num_rows($result); //any result above 0?
-
-    if ($resultCheck > 0) { //lets see if result is above 0 then do the folowing below
-        while ($row = mysqli_fetch_assoc($result)) { //keep loping while data is >0 and is in result
-            echo $row . "<h1>" . ['content'] . "<br>" . "</h1>"; //name of d column
-
-        }
-    }
-
-
-
-?>
-
-
-    
-<!-- showind queries from  DB to website -->
-
-        
+       
         <header class="page-header">
             <h4>Assalam Alaykum Warahmotuhllah, kindly sign-up to become a member</h4>
         </header>
         
 
             <div class="form-group">
-                <form action="includes/login.inc.php" method="post">
+                <form action="includes/signup.inc.php" method="POST">
 
                     <div class="form-group">
                         <label for="firstname">First Name</label>
@@ -75,7 +44,7 @@
                     </div>
 
                     <div class="form-group">
-                        <button class="btn btn-primary" type="submit" name="login">Login</button>
+                        <button class="btn btn-primary" type="submit" name="submit">Login</button>
                     </div>
                 </form>
             </div>

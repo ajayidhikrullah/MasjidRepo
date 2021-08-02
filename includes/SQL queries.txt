@@ -1,0 +1,14 @@
+CREATE table signups (
+    id int(5) not null PRIMARY KEY AUTO_INCREMENT,
+    firstname varchar(250) not null,
+    lastname varchar(250) not null,
+    email varchar(250) not null,
+    uid varchar(250) not null,
+    pwd varchar(250) not null
+);
+
+
+
+
+//remove a column in DB table
+ALTER TABLE signups DROP COLUMN uid

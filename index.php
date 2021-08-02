@@ -11,7 +11,7 @@
         
     <div class="container">
         <main>
-                Hello this is my Index
+                <button class="btn btn-suces"> Welcome, you have successfully signed up</button>
         </main>
     </div>'
     
